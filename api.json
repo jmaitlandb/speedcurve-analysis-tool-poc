@@ -1,0 +1,17 @@
+{
+  "ApiEndpoint": "https://64fro78i5l.execute-api.eu-north-1.amazonaws.com",
+  "ApiId": "64fro78i5l",
+  "ApiKeySelectionExpression": "$request.header.x-api-key",
+  "CreatedDate": "2026-03-12T12:14:36.000Z",
+  "DisableExecuteApiEndpoint": false,
+  "IpAddressType": "ipv4",
+  "Name": "demo-api",
+  "ProtocolType": "HTTP",
+  "RouteSelectionExpression": "$request.method $request.path",
+  "$metadata": {
+    "httpStatusCode": 201,
+    "requestId": "a0a28017-1544-4463-ac2d-5101d56d0751",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  }
+}

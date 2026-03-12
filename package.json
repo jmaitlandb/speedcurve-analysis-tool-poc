@@ -1,0 +1,29 @@
+{
+  "name": "speedcurve-analysis-tool-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lambda1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmaitlandb/speedcurve-analysis-tool-poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmaitlandb/speedcurve-analysis-tool-poc/issues"
+  },
+  "homepage": "https://github.com/jmaitlandb/speedcurve-analysis-tool-poc#readme",
+  "dependencies": {
+    "@aws-sdk/client-apigatewayv2": "^3.1007.0",
+    "@aws-sdk/client-iam": "^3.1007.0",
+    "@aws-sdk/client-lambda": "^3.1007.0",
+    "@aws-sdk/client-s3": "^3.1007.0",
+    "@aws-sdk/util-waiter": "^3.370.0",
+    "archiver": "^7.0.1"
+  },
+  "type": "module"
+}
