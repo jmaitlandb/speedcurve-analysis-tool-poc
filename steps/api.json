@@ -1,0 +1,37 @@
+{
+  "api": {
+    "ApiEndpoint": "https://cl092fyvql.execute-api.eu-north-1.amazonaws.com",
+    "ApiId": "cl092fyvql",
+    "ApiKeySelectionExpression": "$request.header.x-api-key",
+    "CreatedDate": "2026-03-12T15:38:45.000Z",
+    "DisableExecuteApiEndpoint": false,
+    "IpAddressType": "ipv4",
+    "Name": "inno-bucket-brownj58",
+    "ProtocolType": "HTTP",
+    "RouteSelectionExpression": "$request.method $request.path",
+    "$metadata": {
+      "httpStatusCode": 201,
+      "requestId": "a297c219-7b52-4327-8bda-4b8d5fb00442",
+      "attempts": 1,
+      "totalRetryDelay": 0
+    }
+  },
+  "stage": {
+    "AutoDeploy": true,
+    "CreatedDate": "2026-03-12T15:38:47.000Z",
+    "DefaultRouteSettings": {
+      "DetailedMetricsEnabled": false
+    },
+    "LastUpdatedDate": "2026-03-12T15:38:47.000Z",
+    "RouteSettings": {},
+    "StageName": "prod",
+    "StageVariables": {},
+    "Tags": {},
+    "$metadata": {
+      "httpStatusCode": 201,
+      "requestId": "31e484c6-e095-4994-802b-5b840b2d1e8f",
+      "attempts": 1,
+      "totalRetryDelay": 0
+    }
+  }
+}

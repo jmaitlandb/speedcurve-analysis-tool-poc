@@ -16,7 +16,6 @@ import {
 
 export const REGION = "eu-north-1";
 
-// use a deterministic bucket name so all steps work consistently:
 export const BUCKET = "inno-bucket-brownj58-1773317244122";
 
 export const ROLE_NAME = "DemoLambdaExecutionRole";
